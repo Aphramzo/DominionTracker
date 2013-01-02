@@ -1,0 +1,75 @@
+﻿@model IEnumerable<DominionTracker.Models.CardModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Cost
+        </th>
+        <th>
+            CostPotion
+        </th>
+        <th>
+            CardText
+        </th>
+        <th>
+            PlusCards
+        </th>
+        <th>
+            PlusActions
+        </th>
+        <th>
+            PlusCoins
+        </th>
+        <th>
+            PlusBuys
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cost)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CostPotion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CardText)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PlusCards)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PlusActions)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PlusCoins)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PlusBuys)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

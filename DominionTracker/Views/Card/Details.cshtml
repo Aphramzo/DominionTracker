@@ -1,0 +1,55 @@
+﻿@model DominionTracker.Models.CardModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>CardModel</legend>
+
+    <div class="display-label">Name</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Name)
+    </div>
+
+    <div class="display-label">Cost</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Cost)
+    </div>
+
+    <div class="display-label">CostPotion</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CostPotion)
+    </div>
+
+    <div class="display-label">CardText</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CardText)
+    </div>
+
+    <div class="display-label">PlusCards</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PlusCards)
+    </div>
+
+    <div class="display-label">PlusActions</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PlusActions)
+    </div>
+
+    <div class="display-label">PlusCoins</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PlusCoins)
+    </div>
+
+    <div class="display-label">PlusBuys</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PlusBuys)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
