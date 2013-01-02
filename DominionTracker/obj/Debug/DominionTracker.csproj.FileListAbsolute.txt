@@ -1,7 +1,0 @@
-c:\users\twalborn\documents\visual studio 2010\Projects\DominionTracker\DominionTracker\bin\DominionTracker.dll
-c:\users\twalborn\documents\visual studio 2010\Projects\DominionTracker\DominionTracker\bin\DominionTracker.pdb
-c:\users\twalborn\documents\visual studio 2010\Projects\DominionTracker\DominionTracker\bin\EntityFramework.dll
-c:\users\twalborn\documents\visual studio 2010\Projects\DominionTracker\DominionTracker\bin\EntityFramework.xml
-c:\users\twalborn\documents\visual studio 2010\Projects\DominionTracker\DominionTracker\obj\Debug\ResolveAssemblyReference.cache
-c:\users\twalborn\documents\visual studio 2010\Projects\DominionTracker\DominionTracker\obj\Debug\DominionTracker.dll
-c:\users\twalborn\documents\visual studio 2010\Projects\DominionTracker\DominionTracker\obj\Debug\DominionTracker.pdb
